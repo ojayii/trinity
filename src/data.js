@@ -130,3 +130,26 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
 ]
+
+export const roomTypes = [
+    {
+        title: "Hotels",
+        img: "images/image5.png"
+    },
+    {
+        title: "Apartments",
+        img: "images/image5.png"
+    },
+    {
+        title: "Resorts",
+        img: "images/image5.png"
+    },
+    {
+        title: "Villas",
+        img: "images/image5.png"
+    },
+    {
+        title: "Cottages",
+        img: "images/image5.png"
+    },
+]
