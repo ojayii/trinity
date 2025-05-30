@@ -1,0 +1,94 @@
+.header>a,
+.header>p,
+.header>div {
+    z-index: 2;
+}
+
+.header {
+    transition: background 200ms ease-in-out;
+}
+
+.header-body {
+    margin-block: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.room-description {
+    margin-bottom: 1rem;
+    max-width: 30rem;
+}
+
+.book-btn {
+    font-weight: normal;
+    padding: 1rem clamp(1.2rem, 2vw, 2rem);
+    background-color: black;
+    color: white !important;
+    border-radius: 50px;
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.hrule-container {
+    padding-inline: 1rem;
+    position: relative;
+    background-color: transparent;
+}
+
+.hrule-container::after {
+    content: "";
+    position: absolute;
+    left: -8vw;
+    width: 100vw;
+    height: 1rem;
+    background-color: #C49C74;
+    z-index: -1;
+}
+
+.images-container {
+    margin-block: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+input[name="room-preview-btn"] {
+    display: none;
+}
+
+input[name="room-preview-btn"]+label {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5px;
+    /* background-color: red; */
+
+    /* background: url(./images/image10.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+input[name="room-preview-btn"]:checked+label,
+input[name="room-preview-btn"]+label:hover {
+    position: relative;
+}
+
+/* input[name="room-preview-btn"]:checked+label {
+    background-color: blue;
+} */
+
+input[name="room-preview-btn"]:checked+label::after,
+input[name="room-preview-btn"]+label:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(172, 129, 49, 0.603);
+}
+
+input[name="room-preview-btn"]:checked+label {
+    outline: 2px solid #C49C74;
+}
