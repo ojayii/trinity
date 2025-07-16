@@ -1,12 +1,31 @@
-# React + Vite
+# Trinity Hotel – React Version
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based version of the Trinity Hotel website, originally built with HTML, CSS, and JavaScript. It demonstrates the use of reusable components in React, with a modular structure and cleaner code. The project is built using Vite for fast development and includes some vanilla JavaScript where needed.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Reusable React components  
+- Fast build and development with Vite  
+- Clean and maintainable structure  
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- Vite  
+- JavaScript (ES6)  
+- CSS  
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/ojayii/trinity-react.git trinity-react
+cd trinity-react
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
