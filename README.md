@@ -21,7 +21,7 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ojayii/trinity-react.git trinity-react
+git clone -b react https://github.com/ojayii/trinity.git trinity-react
 cd trinity-react
 
 # Install dependencies
