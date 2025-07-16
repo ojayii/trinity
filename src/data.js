@@ -80,7 +80,7 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
     {
-        id: 8,
+        id: 9,
         type: "Villa",
         title: "Kemah Tinggi",
         price: 3500,
@@ -90,7 +90,7 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
     {
-        id: 8,
+        id: 10,
         type: "Villa",
         title: "Kemah Tinggi",
         price: 3500,
@@ -100,7 +100,7 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
     {
-        id: 8,
+        id: 11,
         type: "Villa",
         title: "Kemah Tinggi",
         price: 3500,
@@ -110,7 +110,7 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
     {
-        id: 8,
+        id: 12,
         type: "Villa",
         title: "Kemah Tinggi",
         price: 3500,
@@ -120,7 +120,7 @@ export const rooms = [
         pictures: ["images/room1.png", "images/room2.png", "images/room3.png", "images/room4.png"]
     },
     {
-        id: 8,
+        id: 13,
         type: "Villa",
         title: "Kemah Tinggi",
         price: 3500,
@@ -134,19 +134,19 @@ export const rooms = [
 export const roomTypes = [
     {
         title: "Hotels",
-        img: "images/image5.png"
+        img: "images/room1.png"
     },
     {
         title: "Apartments",
-        img: "images/image5.png"
+        img: "images/room2.png"
     },
     {
         title: "Resorts",
-        img: "images/image5.png"
+        img: "images/room3.png"
     },
     {
         title: "Villas",
-        img: "images/image5.png"
+        img: "images/room4.png"
     },
     {
         title: "Cottages",
